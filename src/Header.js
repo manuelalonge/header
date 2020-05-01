@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './logo.png';
 import './App.css';
 
 import {
@@ -10,7 +11,7 @@ export default class Header extends Component {
     render() {
         return (
             <div className="Header">
-                <img className="Logo" src="http://localhost:8080/logo.png" alt="Logo"/>              
+                <img className="Logo" src={logo} alt="Logo"/>
                 <ul className="Menu-ul-left">
                     <li><Link to ="/docs">Docs</Link></li>
                     <li><Link to ="/tutorial">Tutorial</Link></li>
