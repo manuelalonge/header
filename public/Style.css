@@ -1,7 +1,9 @@
 .Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #20232a;
     padding: 20px;
-    justify-content: space-between;
 }
 
 .Logo {
@@ -11,10 +13,8 @@
 
 .Menu-ul-left{
     list-style-type: none;
-    margin: 0;
     margin-left: 25px;
-    padding-top: 0px;
-    float: left;
+    flex-grow: 1;
 }
 
 .Menu-ul-left li {
@@ -34,10 +34,6 @@
 
 .Menu-ul-right {
     list-style-type: none;
-    margin: 0;
-    float: right;
-    margin-right: 25px;
-    padding-top: 10px;
 }
 
 .Menu-ul-right li {
