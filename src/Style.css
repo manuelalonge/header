@@ -19,7 +19,8 @@
 
 .Menu-ul-left li {
     display: inline-block;
-    margin-left: 10px;    
+    margin-left: 10px;
+    font-weight: bold;    
 }
 
 .Menu-ul-left li a{
@@ -28,8 +29,8 @@
 }
 
 .Menu-ul-left li a:hover{
-    color: lightblue;
-    text-decoration: none;
+    color: #4b9eb6;
+    text-decoration:none;
 }
 
 .Menu-ul-right {
@@ -48,6 +49,6 @@
 }
 
 .Menu-ul-right li a:hover{
-    color: lightblue;
+    color: #4b9eb6;
     text-decoration: none;
 }
