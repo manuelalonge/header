@@ -7,9 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header>
-          <Link href="google.com">Docs</Link>
-        </Header>
+        <Header/>
       </div>
     );
   }
