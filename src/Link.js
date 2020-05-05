@@ -4,6 +4,6 @@ import './App.css';
 export default function Link(props) {
   console.log(props);
   return (
-    <a href={props.name} target="_blank">{props.name}</a>
+    <a href={props.href} target="_blank">{props.name}</a>
   );
 }
